@@ -1,0 +1,21 @@
+#################################################
+#                                               #
+#                    RPHost                     #
+#                      ${author}                #
+#################################################
+
+#Only used for connecting clients to send the resource pack.
+#Modifying this value will have no effect on the http server
+address: localhost
+
+#The port that the http server will bind to
+port: 25566
+
+#The resource pack name that is located in this plugin's data directory.
+resource-pack name: RP.zip
+
+#Force resource pack usage?
+force resource-pack: false
+
+#Not using resource pack when forced
+declined resource-pack: "&3You must accept the resource pack in order to play on this server."
